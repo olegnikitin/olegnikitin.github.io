@@ -1,5 +1,5 @@
 $(document).ready(
     function() {
-        $("div:hidden:first").fadeIn("slow");
+        $("div").fadeIn(1000);
     }
 );
