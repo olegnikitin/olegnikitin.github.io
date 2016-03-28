@@ -1,0 +1,9 @@
+body {
+    background: #e5e5e5 url("../img/background.png") repeat;
+}
+
+.main {
+    display: none;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}

@@ -1,16 +1,39 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>This is a my page</title>
-	<style>
-		#main {
-			text-align: center;
-		}		
-	</style>
+	<!--Bootstrap-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+		  integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!--Fonts-->
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+
+	<!--Styles-->
+	<link href="css/styles.css" rel='stylesheet' type='text/css'>
+
+	<!--Main info-->
+	<title>This is my page</title>
+
+	<!--Another-->
+	<meta name="description" content="Oleg Nikitin">
+	<meta name="author" content="Oleg Nikitin">
 </head>
 <body>
-<div id="main">
-	<h1>Hello!</h1>
-	<h2>I'm Oleg Nikitin and this is my profile</h2>
+<div class="container main">
+	<div class="row">
+		<h1>Hello! I'm Oleg Nikitin and this is my profile</h1>
+	</div>
+	<div class="row">
+		<h2>And it's me</h2>
+	</div>
+	<div class="row">
+		<img src="img/me.jpg" alt="It's me" title="It's me" class="img-circle">
+	</div>
 </div>
+<!--Scripts and libraries here-->
+<script src="http://code.jquery.com/jquery-2.2.2.min.js"></script><!--Doesn't support IE < 9-->
+<script src="js/script.js"></script>
 </body>
 </html>
