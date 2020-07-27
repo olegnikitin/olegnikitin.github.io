@@ -1,2 +1,2 @@
 # CV page
-Available on http://olegnikitin.github.io/
+Available on https://olegnikitin.github.io/
